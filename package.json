@@ -1,6 +1,5 @@
 {
   "homepage" : "https://sataylor8.github.io/cosmere_checklist/",
-  "name": "cosmere_checklist",
   "private": true,
   "version": "0.0.1",
   "type": "module",
