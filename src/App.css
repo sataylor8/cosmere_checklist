@@ -27,6 +27,7 @@ body {
 
 .SystemView_BookContainer {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .BookView_Root {
