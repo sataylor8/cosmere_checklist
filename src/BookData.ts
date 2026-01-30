@@ -145,15 +145,15 @@ const BookData: BookDataType = {
         books: {
             "Elantris": {
                 minutes: 1710,
-                image: "../public/Elantris_Cover.jpg",
+                image: "./assets/Elantris_Cover.jpg",
             },
             "The Hope of Elantris": {
                 minutes: 38,
-                image: "../public/TheHopeOfElantris_Cover.jpg",
+                image: "./assets/TheHopeOfElantris_Cover.jpg",
             },
             "The Emperor's Soul": {
                 minutes: 235,
-                image: "../public/TheEmporersSoul_Cover.jpg",
+                image: "./assets/TheEmporersSoul_Cover.jpg",
             }
         }
     },
@@ -161,35 +161,35 @@ const BookData: BookDataType = {
         books: {
             "The Final Empire": {
                 minutes: 1479,
-                image: "../public/TheFinalEmpire_Cover.jpg",
+                image: "./assets/TheFinalEmpire_Cover.jpg",
             },
             "The Well of Ascension": {
                 minutes: 1740,
-                image: "../public/TheWellOfAscension_Cover.jpg",
+                image: "./assets/TheWellOfAscension_Cover.jpg",
             },
             "The Hero of Ages": {
                 minutes: 1645,
-                image: "../public/TheHeroOfAges_Cover.jpg",
+                image: "./assets/TheHeroOfAges_Cover.jpg",
             },
             "Mistborn: Secret History": {
                 minutes: 358,
-                image: "../public/MistbornSecretHistory_Cover.jpg",
+                image: "./assets/MistbornSecretHistory_Cover.jpg",
             },
             "The Alloy of Law": {
                 minutes: 648,
-                image: "../public/TheAlloyOfLaw_Cover.jpg",
+                image: "./assets/TheAlloyOfLaw_Cover.jpg",
             },
             "The Shadows of Self": {
                 minutes: 757,
-                image: "../public/TheShadowsOfSelf_Cover.jpg",
+                image: "./assets/TheShadowsOfSelf_Cover.jpg",
             },
             "The Bands of Mourning": {
                 minutes: 881,
-                image: "../public/TheBandsOfMourning_Cover.jpg",
+                image: "./assets/TheBandsOfMourning_Cover.jpg",
             },
             "The Lost Metal": {
                 minutes: 1126,
-                image: "../public/TheLostMetal_Cover.jpg",
+                image: "./assets/TheLostMetal_Cover.jpg",
             }
         }
     },
@@ -197,7 +197,7 @@ const BookData: BookDataType = {
         books: {
             "Warbreaker": {
                 minutes: 1496,
-                image: "../public/Warbreaker_Cover.jpeg",
+                image: "./assets/Warbreaker_Cover.jpeg",
             }
         }
     },
@@ -205,31 +205,31 @@ const BookData: BookDataType = {
         books: {
             "The Way of Kings": {
                 minutes: 2730,
-                image: "../public/TheWayOfKings_Cover.png",
+                image: "./assets/TheWayOfKings_Cover.png",
             },
             "Words of Radiance": {
                 minutes: 2895,
-                image: "../public/WordsOfRadiance_Cover.jpg",
+                image: "./assets/WordsOfRadiance_Cover.jpg",
             },
             "Edgedancer": {
                 minutes: 384,
-                image: "../public/EdgeDancer_Cover.jpg",
+                image: "./assets/EdgeDancer_Cover.jpg",
             },
             "Oathbringer": {
                 minutes: 3305,
-                image: "../public/Oathbringer_Cover.jpg",
+                image: "./assets/Oathbringer_Cover.jpg",
             },
             "Dawnshard": {
                 minutes: 425,
-                image: "../public/Dawnshard_Cover.jpg",
+                image: "./assets/Dawnshard_Cover.jpg",
             },
             "Rhythm of War": {
                 minutes: 3446,
-                image: "../public/RhythmOfWar_Cover.jpg",
+                image: "./assets/RhythmOfWar_Cover.jpg",
             },
             "Wind and Truth": {
                 minutes: 3768,
-                image: "../public/WindAndTruth_Cover.jpg",
+                image: "./assets/WindAndTruth_Cover.jpg",
             }
         }
     },
@@ -237,15 +237,15 @@ const BookData: BookDataType = {
         books: {
             "White Sand Volume 1": {
                 minutes: 323,
-                image: "../public/WhiteSandV1_Cover.jpg",
+                image: "./assets/WhiteSandV1_Cover.jpg",
             },
             "White Sand Volume 2": {
                 minutes: 311,
-                image: "../public/WhiteSandV2_Cover.jpg",
+                image: "./assets/WhiteSandV2_Cover.jpg",
             },
             "White Sand Volume 3": {
                 minutes: 305,
-                image: "../public/WhiteSandV3_Cover.jpg",
+                image: "./assets/WhiteSandV3_Cover.jpg",
             }
         }
     },
@@ -253,7 +253,7 @@ const BookData: BookDataType = {
         books: {
             "Shadows for Silence in the Forest of Hell": {
                 minutes: 127,
-                image: "../public/ShadowsForSilence_Cover.jpg",
+                image: "./assets/ShadowsForSilence_Cover.jpg",
             }
         }
     },
@@ -261,7 +261,7 @@ const BookData: BookDataType = {
         books: {
             "Tress of the Emerald Sea": {
                 minutes: 747,
-                image: "../public/TressOfTheEmeraldSea_Cover.jpg",
+                image: "./assets/TressOfTheEmeraldSea_Cover.jpg",
             }
         }
     },
@@ -269,7 +269,7 @@ const BookData: BookDataType = {
         books: {
             "Yumi and The Nightmare Painter": {
                 minutes: 883,
-                image: "../public/YumiAndTheNightmarePainter_Cover.jpg",
+                image: "./assets/YumiAndTheNightmarePainter_Cover.jpg",
             }
         }
     },
@@ -277,7 +277,7 @@ const BookData: BookDataType = {
         books: {
             "The Sunlit Man": {
                 minutes: 671,
-                image: "../public/TheSunlitMan_Cover.jpg",
+                image: "./assets/TheSunlitMan_Cover.jpg",
             }
         }
     },
@@ -285,7 +285,7 @@ const BookData: BookDataType = {
         books: {
             "Isles of the Emberdark": {
                 minutes: 1013,
-                image: "../public/IslesOfTheEmberdark_Cover.png",
+                image: "./assets/IslesOfTheEmberdark_Cover.png",
             }
         }
     }

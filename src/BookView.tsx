@@ -1,12 +1,10 @@
 import { Slider, type SliderOnChangeData } from "@fluentui/react-components"
-import { GetStaticBookData } from "./StorageLayer";
 import type { BookName, SystemName, BookStatusType} from "./BookData";
 import * as React from 'react';
+import { GetImage } from "./BookImages";
 
 function BookView(props: { systemKey: SystemName, bookKey: BookName, statusState: BookStatusType, updateStatus: (systemKey: SystemName, bookKey: BookName, status: number) => void }) {
     const {systemKey, bookKey, statusState, updateStatus} = props;
-    const data = GetStaticBookData(systemKey, bookKey);
-    const imgUrl = new URL(data.image, import.meta.url).href
     const currentVaule = statusState[systemKey].books[bookKey];
     const onSliderChange = React.useCallback((ev: React.ChangeEvent<HTMLInputElement>, data: SliderOnChangeData) => {
         ev.currentTarget;
@@ -22,7 +20,7 @@ function BookView(props: { systemKey: SystemName, bookKey: BookName, statusState
 
     return (
         <div className="BookView_Root">
-            <img src={imgUrl} className="BookView_Image" onClick={onClick}/>
+            <img src={GetImage(bookKey)} className="BookView_Image" onClick={onClick}/>
             <p className="BookView_Title">{bookKey}</p>
             <div className="BookView_Slider_Container">
                 <Slider className="BookView_Slider" value={currentVaule} max={100} onChange={onSliderChange}/>
