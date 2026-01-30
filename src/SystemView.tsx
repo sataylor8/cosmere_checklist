@@ -1,7 +1,7 @@
-import { type BookName, type BookStatusType, type System, type SystemName, BookNames } from "./BookData";
+import { type BookName, type BookStatusType, type SystemName, BookNames } from "./BookData";
 import BookView from "./BookView";
 
-function System(props: { systemKey: SystemName, statusState: BookStatusType, updateStatus: (systemKey: SystemName, bookKey: BookName, status: number) => void }) {
+function SystemView(props: { systemKey: SystemName, statusState: BookStatusType, updateStatus: (systemKey: SystemName, bookKey: BookName, status: number) => void }) {
     const {systemKey, statusState, updateStatus} = props;
 
     return (
@@ -16,4 +16,4 @@ function System(props: { systemKey: SystemName, statusState: BookStatusType, upd
     )
 }
 
-export default System
+export default SystemView

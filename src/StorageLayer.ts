@@ -1,4 +1,4 @@
-import type { SystemName, BookName, Book, BookStatusType, System } from "./BookData";
+import type { SystemName, BookName, Book, BookStatusType } from "./BookData";
 import { default as BookData, InitialBookStatus } from "./BookData";
 
 const LOCAL_STORAGE_KEY = 'COSMERE_CHECKLIST_DATA';

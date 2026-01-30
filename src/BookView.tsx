@@ -9,6 +9,7 @@ function BookView(props: { systemKey: SystemName, bookKey: BookName, statusState
     const imgUrl = new URL(data.image, import.meta.url).href
     const currentVaule = statusState[systemKey].books[bookKey];
     const onSliderChange = React.useCallback((ev: React.ChangeEvent<HTMLInputElement>, data: SliderOnChangeData) => {
+        ev.currentTarget;
         updateStatus(systemKey, bookKey, data.value);
     }, [systemKey, bookKey])
     const onClick = React.useCallback(() => {
