@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://sataylor8.github.io",
+  "homepage": "https://sataylor8.github.io",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fluentui/react-components": "^9.72.10",
+    "@fluentui/react-icons": "^2.0.317",
     "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

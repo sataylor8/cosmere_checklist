@@ -4,15 +4,30 @@ body {
 
 .App_Root {
     margin: 0;
-    padding: 12px;
+    padding-left: 12px;
 }
 
 .App_Heading {
     margin: 0;
 }
 
-.Progress {
-    font-size: 24px;
+.Progress_Root {
+    padding-top: 12px;
+    position: fixed;
+    width: calc(100% - 24px);
+    height: 44px;
+    background-color: var(--colorNeutralBackground1);
+    z-index: 1;
+}
+
+.Progress_Value {
+    font-size: 20px;
+    margin-top: 0px
+}
+
+.App_SystemsViewContainer {
+    top: 56px;
+    position: relative;
 }
 
 .SystemView_Root { 
@@ -37,6 +52,7 @@ body {
     justify-content: center;
 }
 
+.BookView_Image_Done,
 .BookView_Image {
     width: 200px;
     height: auto;
@@ -45,6 +61,10 @@ body {
     border-radius: 4px;
     box-shadow: 4.0px 8.0px 8.0px hsla(0, 0%, 100%, 0.38);
     cursor: pointer;
+}
+
+.BookView_Image_Done {
+    opacity: .4;
 }
 
 .BookView_Title {
@@ -58,4 +78,22 @@ body {
 
 .BookView_Slider {
     width: 100%;
+}
+
+.BookView_SliderLabel {
+    background-color: white;
+    color: black;
+    top: -36px;
+    position: relative;
+    padding: 0 2px;
+    border-radius: 2px;
+    width: 24px;
+    text-align: center;
+}
+
+.BookView_Checkmark {
+    position: relative;
+    top: -260px;
+    left: 88px;
+    color: rgb(60, 156, 60);
 }

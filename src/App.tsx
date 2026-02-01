@@ -20,7 +20,6 @@ function App() {
   return (
     <FluentProvider theme={webDarkTheme}>
       <div className="App_Root">
-        <h1 className="App_Heading">Cosmere Checklist</h1>
         <Progress statusState={state}/>
         <div className="App_SystemsViewContainer">
           {SystemNames.map(system => {

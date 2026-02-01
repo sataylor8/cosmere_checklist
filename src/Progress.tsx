@@ -1,5 +1,6 @@
 import type { BookName, BookStatusType } from "./BookData";
 import BookData, { SystemNames } from "./BookData";
+import { ProgressBar } from "@fluentui/react-components";
 
 function Progress(props: {statusState: BookStatusType}) {
     let progress = 0;
@@ -13,9 +14,14 @@ function Progress(props: {statusState: BookStatusType}) {
         })
     });
 
-    let percentage = ((progress/total)*100).toFixed(2);
+    let percentageNumber = ((progress/total)*100);
+    let percentage = percentageNumber.toFixed(2);
   return (
-    <p className="Progress">{`Progress: ${percentage}%`}</p>
+    <div className="Progress_Root">
+      <p className="Progress_Value">{`Progress: ${percentage}%`}</p>
+      <ProgressBar className="Progress_Bar" value={percentageNumber} thickness="large" max={100}/>
+    </div>
+    
   )
 }
 
