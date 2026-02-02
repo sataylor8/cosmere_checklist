@@ -117,7 +117,7 @@ export const BookNames: Record<SystemName, { books: BookName[] }> = {
             "The Sunlit Man"
         ]
     },
-    "Drominad ": {
+    "Drominad": {
         books: [
             "Isles of the Emberdark"
         ]
