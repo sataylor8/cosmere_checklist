@@ -1,5 +1,5 @@
-export type SystemName = "Sel" | "Scadrial" | "Nalthis" | "Roshar" | "Taldain" | "Threnody" | "Lumar" | "Monaster" | "Cantico" | "????";
-export const SystemNames: SystemName[] = ["Sel", "Scadrial", "Nalthis", "Roshar", "Taldain", "Threnody", "Lumar", "Monaster", "Cantico", "????"];
+export type SystemName = "Sel" | "Scadrial" | "Nalthis" | "Roshar" | "Taldain" | "Threnody" | "Lumar" | "Monaster" | "Cantico" | "Drominad ";
+export const SystemNames: SystemName[] = ["Sel", "Scadrial", "Nalthis", "Roshar", "Taldain", "Threnody", "Lumar", "Monaster", "Cantico", "Drominad "];
 export type BookName = "Elantris" |
     "The Hope of Elantris" |
     "The Emperor's Soul" |
@@ -117,7 +117,7 @@ export const BookNames: Record<SystemName, { books: BookName[] }> = {
             "The Sunlit Man"
         ]
     },
-    "????": {
+    "Drominad ": {
         books: [
             "Isles of the Emberdark"
         ]
@@ -281,7 +281,7 @@ const BookData: BookDataType = {
             }
         }
     },
-    "????": {
+    "Drominad ": {
         books: {
             "Isles of the Emberdark": {
                 minutes: 1013,
@@ -354,7 +354,7 @@ export const InitialBookStatus: BookStatusType = {
             "The Sunlit Man": 0
         }
     },
-    "????": {
+    "Drominad ": {
         books: {
             "Isles of the Emberdark": 0
         }
