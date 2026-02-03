@@ -54,6 +54,7 @@ body {
     border-radius: 4px;
     width: 220px;
     justify-content: center;
+    position: relative;
 }
 
 .BookView_Image_Done,
@@ -96,8 +97,8 @@ body {
 }
 
 .BookView_Checkmark {
-    position: relative;
-    top: -260px;
-    left: 88px;
+    position: absolute;
+    top: 140px;
+    left: 86px;
     color: rgb(60, 156, 60);
 }
